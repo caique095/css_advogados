@@ -66,6 +66,8 @@
 .qsomos_title{
     margin: 1rem 0;
     color: var(--branco);
+
+
 }
 
 .qsomos_button{
@@ -357,3 +359,20 @@
     max-width: 470px;
   }
   
+
+
+  @media only screen and (min-width: 700px) {
+
+    .qsomos{
+       flex-direction: row;
+    }
+
+    .qsomos_button{
+        width: 15vw;
+    }
+
+    .container{
+        margin: 5rem 0;
+    }
+
+  }
