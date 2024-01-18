@@ -163,6 +163,8 @@
 
     background-image: url("./assets/agende.png");
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .cta_button{
@@ -224,7 +226,7 @@
 }
 
 .logo_footer{
-    height: 5rem;
+    height: 4rem;
     margin: 2rem 0;
 }
 
