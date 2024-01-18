@@ -25,6 +25,8 @@
 
     background-image: url("./assets/bg_deg.png");
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .logo{
@@ -359,6 +361,11 @@
     max-width: 470px;
   }
   
+  .icons{
+    border: 1px solid #f2f2f2;
+    border-radius: 1rem;
+
+  }
 
 
   @media only screen and (min-width: 700px) {
@@ -367,7 +374,7 @@
        flex-direction: row;
     }
 
-    .qsomos_button{
+    .qsomos_button, .cta_button{
         width: 15vw;
     }
 
